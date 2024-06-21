@@ -24,15 +24,15 @@
     /* Couleur de text de la class color-primary */
     --wrapped-title-color-primary: rgb(255, 255, 255);
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
-    --bg-image-cover-header: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/assets/images/world-of-warcraft-photo-head.jpg");
+    --bg-image-cover-header: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("./assets/images/world-of-warcraft-photo-head.jpg");
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
-    --bg-image-cover-wow-classes: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/assets/images/wow/bg-classes.avif");
+    --bg-image-cover-wow-classes: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("./assets/images/wow/bg-classes.avif");
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
     --bg-image-cover-wow-races: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
-    --bg-image-cover-wow-factions: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/assets/images/wow/bg-factions.jpg");
+    --bg-image-cover-wow-factions: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("./assets/images/wow/bg-factions.jpg");
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
-    --bg-image-cover-wow-extension: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/assets/images/world-of-warcraft-photo-head.jpg");
+    --bg-image-cover-wow-extension: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("./assets/images/world-of-warcraft-photo-head.jpg");
     /* Couleur de l'ombrage du header */
     --text-shadow-header: rgb(185, 179, 179) 2px 0 5px;
     /* Couleur de fonds du menu head */
@@ -78,7 +78,7 @@ body {
     background: var(--gradient-bg-body);
     background-size: cover;
     color: var(--text-body);
-    background-image: url("/assets/images/bg-blue.jpg");
+    background-image: url("./assets/images/bg-blue.jpg");
 }
 
 a {
@@ -232,7 +232,7 @@ aside {
     justify-content: center;
     align-content: space-around;
     align-items: center;
-    background-image: url("/assets/images/bg-blue.jpg");
+    background-image: url("./assets/images/bg-blue.jpg");
 }
 
 /*************************** CLASS ***************************/
@@ -309,7 +309,7 @@ aside {
 }
 
 .menuHead .img-link-logo {
-    background-image: url("/assets/images/wowgeek.jpg");
+    background-image: url("./assets/images/wowgeek.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 220px;
@@ -362,13 +362,13 @@ aside {
     display: none;
     width: 30px;
     height: 30px;
-    background-image: url("/assets/icons/menu-svgrepo-com.svg");
+    background-image: url("./assets/icons/menu-svgrepo-com.svg");
     background-size: cover;
 }
 
 .menuHead .icon-menu {
     float: right;
-    background-image: url("/assets/icons/menu-svgrepo-com.svg");
+    background-image: url("./assets/icons/menu-svgrepo-com.svg");
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -425,7 +425,7 @@ aside {
     gap: 50px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    background-image: url("/assets/images/bg-grey-1.jpg");
+    background-image: url("./assets/images/bg-grey-1.jpg");
 }
 
 .content-races article:nth-child(odd) {
@@ -440,7 +440,7 @@ aside {
     gap: 50px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    background-image: url("/assets/images/bg-grey-1.jpg");
+    background-image: url("./assets/images/bg-grey-1.jpg");
 }
 
 /* ASIDE */
@@ -500,7 +500,7 @@ aside {
     margin: auto;
     padding: 1rem;
     border-radius: 8px;
-    background-image: url("/assets/images/bg-grey-1.jpg");
+    background-image: url("./assets/images/bg-grey-1.jpg");
 }
 
 .in-card:hover {
@@ -523,7 +523,7 @@ aside {
     padding: 18px;
     gap: 20px;
     border-radius: 8px;
-    background-image: url("/assets/images/bg-grey-1.jpg");
+    background-image: url("./assets/images/bg-grey-1.jpg");
 }
 
 .in-card-faction:hover {
@@ -546,7 +546,7 @@ article.in-card-classes {
     min-height: 275px;
     margin: auto;
     border-radius: 8px;
-    background-image: url("/assets/images/bg-grey-1.jpg");
+    background-image: url("./assets/images/bg-grey-1.jpg");
     border: solid 2px #fff;
 }
 
@@ -620,7 +620,7 @@ article.in-card-extensions {
     row-gap: 20px;
     margin: auto;
     border-radius: 8px;
-    background-image: url("/assets/images/bg-grey-1.jpg");
+    background-image: url("./assets/images/bg-grey-1.jpg");
     border: solid 2px #fff;
 }
 
@@ -700,7 +700,7 @@ article.in-card-extensions .card-img {
     height: 30px;
     border: 4px #333;
     border-radius: 12px;
-    background-image: url("/assets/images/bg-red.jpg");
+    background-image: url("./assets/images/bg-red.jpg");
     background-size: cover;
     color: #ffffff;
 }
@@ -874,7 +874,7 @@ div.footer-copyright a:hover {
         min-height: 200px;
         margin: auto;
         border-radius: 8px;
-        background-image: url("/assets/images/bg-grey-1.jpg");
+        background-image: url("./assets/images/bg-grey-1.jpg");
     }
 
     article.in-card-classes .img-card {
@@ -1094,7 +1094,7 @@ div.footer-copyright a:hover {
         width: 90%;
         min-height: 275px;
         margin: auto;
-        background-image: url("/assets/images/bg-grey-1.jpg");
+        background-image: url("./assets/images/bg-grey-1.jpg");
         border: solid 2px #fff;
     }
 
