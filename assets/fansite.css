@@ -22,7 +22,7 @@
     /* Couleur de text de la class hc-primary */
     --title-color-class-hc-primary: rgb(255, 255, 255);
     /* Couleur de text de la class color-primary */
-    --wrapped-title-color-primary: rgb(255, 255, 255);
+    --wrapped-title-color-primary: rgb(13, 21, 133);
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
     --bg-image-cover-header: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("./assets/images/world-of-warcraft-photo-head.jpg");
     /* Image du header & dégrader du fond de la supperpossition d'image pour améliorer la visibilité du text */
