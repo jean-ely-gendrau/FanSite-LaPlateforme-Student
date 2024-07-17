@@ -1,0 +1,6 @@
+RewriteEngin On 
+RewritCond -f %{REQUEST_FILENAME} !-f 
+RewriteRule ^/?wowgeek/les-races/?$ /fansite/les-races.html [L]
+RewriteRule ^/?wowgeek/les-classes/?$ /fansite/les-classes.html [L]
+RewriteRule ^/?wowgeek/les-extansions/?$ /fansite/les-extansions.html [L]
+RewriteRule ^/?wowgeek/les-fations/?$ /fansite/les-fations.html [L]
