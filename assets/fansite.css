@@ -400,7 +400,6 @@ aside {
 .content-races p {
     width: 90%;
     margin: auto;
-    margin-bottom: 1rem;
 }
 
 /* FIGURE */
@@ -597,14 +596,16 @@ article.in-card-classes h2.h2-name {
     align-items: center;
     height: 50px;
     padding: 6px;
+    font-size: 1.2em;
 }
 
 .classes-p-description {
     display: flex;
+    line-height: 1.8rem;
     align-items: center;
-    height: 155px;
+    min-height: 300px;
     margin: auto;
-    padding: 8px;
+    padding: 2rem;
 }
 
 /* PAGE EXTENSION */
@@ -673,11 +674,24 @@ article.in-card-extensions .card-img {
 
 /* PAGE RACE */
 .list-race {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
     flex-flow: column;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: 30px;
+}
+
+.list-race li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#00000010, #44444428);
+    font-size: 20px;
+    height: 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    list-style: none;
 }
 
 /* FORM CONTACT */
