@@ -1,227 +1,176 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="https://fansite-laplateforme-student.test/" />
-    <link href="./assets/fansite.css" rel="stylesheet" />
-    <script src="./assets/js/nav.js"></script>
-    <title>WowGeek - Contact fansite de World of Warcraft.</title>
-  </head>
+<!DOCTYPE>
+lang="fr">
 
-  <body>
-    <!-- MAIN -->
-    <main class="in-article">
-      <!-- HEADER -->
-      <header class="header">
-        <div class="wrapped-title">
-          <h1 class="header-h1">
-            WowGeek - Contact nous si tu as des suggestions.
-          </h1>
-          <p class="header-p">
-            Ton expérience World of Warcraft nous intéresse, laisse-moi un
-            message sans plus attendre.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="https://jean-ely-gendrau.students-laplateforme.io/fansite/" />
+  <link href="./assets/fansite.css" rel="stylesheet" />
+
+  <title>WowGeek - Contact WoWGeek L'univer passionant de World of Warcraft.</title>
+  <meta name="description"
+    content="Découvrez notre guide complet sur les classes de World of Warcraft. Apprenez tout sur les compétences, talents et stratégies pour chaque classe de WoW.">
+
+  <meta name="keywords" content="World of Warcraft, WoW, actualités WoW, guides WoW, communauté WoW, MMORPG" />
+  <meta property="og:title" content="Fan Site World of Warcraft - Actualités, Guides, et Communauté" />
+  <meta property="og:description"
+    content="Découvrez les dernières actualités, guides, et discussions de la communauté World of Warcraft. Rejoignez-nous !" />
+  <meta property="og:image"
+    content="https://jean-ely-gendrau.students-laplateforme.io/fansite/assets/images/les-factions/world-of-warcraft-photo-head.jpg" />
+  <meta property="og:url" content="https://jean-ely-gendrau.students-laplateforme.io/fansite/" />
+  <link rel="canonical" href="https://jean-ely-gendrau.students-laplateforme.io/fansite/" />
+</head>
+
+<body>
+  <!-- MAIN -->
+  <main class="in-article">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="wrapped-title">
+        <h1 class="header-h1">
+          WowGeek - Contact nous si tu as des suggestions.
+        </h1>
+        <p class="header-p">
+          Ton expérience World of Warcraft nous intéresse, laisse-moi un
+          message sans plus attendre.
+        </p>
+      </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="nav-menuHead">
+      <div class="menuHead" id="WowGeek">
+        <a title="WowGeeK" class="link-logo" href="./">WoWGeeK</a>
+        <a title="Acceuil WowGeek" href="./">Acceuil</a>
+        <a title="les races de personnages" href="./les-races">les races</a>
+        <a title="les factions jouable" href="./les-factions">les factions</a>
+        <a title="les classes à prendre en main" href="./les-classes">les classes</a>
+        <a title="les extansions à découvrir" href="./les-extansions">les extansions</a>
+        <a title="Contact nous si tu as des suggestions" href="./contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="showMenuNow()">
+        </a>
+      </div>
+    </nav>
+
+    <!-- SECTION -->
+    <section class="content">
+      <h2>Contact</h2>
+
+      <p>Une question, une suggestion, laisse nous un message.</p>
+
+      <form action="/contact" method="post">
+        <ul class="form-contact">
+          <li class="list-contact">
+            <label for="pseudo">Pseudo :</label>
+            <input type="text" id="pseudo" name="pseudo" />
+          </li>
+          <li class="list-contact">
+            <label for="mail">E-mail :</label>
+            <input type="email" id="mail" name="mail" />
+          </li>
+          <li class="list-contact">
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="message"></textarea>
+          </li>
+          <li class="list-contact">
+            <button class="button-contact" type="submit">
+              Envoyer le message
+            </button>
+          </li>
+        </ul>
+      </form>
+      <aside class="aside-contact">
+        <!-- FIGURE -->
+        <figure class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8szOuSfblt8"
+            title="World of Warcraft : Shadowlands Le Film"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <!-- FIGCAPTION -->
+          <figcaption>World of Warcraft : Shadowlands Le Film</figcaption>
+        </figure>
+
+        <!-- FIGURE -->
+        <figure class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7rZ9UtNTy2Y"
+            title="Aperçu des fonctionnalités de The War Within | World of Warcraft"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <!-- FIGCAPTION -->
+          <figcaption>
+            Aperçu des fonctionnalités de The War Within | World of Warcraft
+          </figcaption>
+        </figure>
+
+        <!-- FIGURE -->
+        <figure class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6N3kjHebBKA"
+            title="Bande-annonce cinématique de The War Within | World of Warcraft"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <!-- FIGCAPTION -->
+          <figcaption>
+            Bande-annonce cinématique de The War Within | World of Warcraft
+          </figcaption>
+        </figure>
+      </aside>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <!-- NAV FOOTER -->
+    <nav class="old-footer">
+      <div class="old-footer-logo">
+        <a title="WowGeeK" class="link-logo" href="./">WoWGeeK</a>
+        <a title="Télécharger La source du projet sur GitHub"
+          href="https://github.com/jean-ely-gendrau/runtrack1-jour-6">La source du projet sur GitHub</a>
+      </div>
+      <!-- NAV LINK -->
+      <div>
+        <p class="uppercase">WoW GeeK</p>
+        <div class="menu-footer">
+          <a class="menu-items-footer" title="Acceuil" href="./">Acceuil</a>
+          <a class="menu-items-footer" title="conditions générales d'utilisation" href="./">CGU</a>
+          <a class="menu-items-footer" title="Politique de confidentialité" href="./">RGPD</a>
+          <a class="menu-items-footer" title="Contact" href="./contact">Contact</a>
+        </div>
+      </div>
+      <!-- NAV LINK -->
+      <div>
+        <p class="uppercase">L'univer de WoW</p>
+        <div class="menu-footer">
+          <a class="menu-items-footer" title="Les Factions" href="./les-factions">les factions</a>
+          <a class="menu-items-footer" title="Les Classes" href="./les-classes">les classes</a>
+          <a class="menu-items-footer" title="Les Extansions" href="./les-extansions">les extansions</a>
+        </div>
+      </div>
+      <!-- GoTo WoW -->
+      <div>
+        <p class="uppercase">Autre Liens WoW</p>
+        <div class="menu-footer">
+          <a href="https://eu.forums.blizzard.com/fr/wow//" title="World of Warcraft Forums">Forums Blizzard</a>
+          <a href="https://worldofwarcraft.judgehype.com/"
+            title="JudgeHype: Guides et news pour World of Warcraft">JudgeHype</a>
+          <a href="https://www.wowhead.com/classic/fr" title="WowHead Classic">WowHead Classic</a>
+          <p class="footer-button">
+            <a href="https://worldofwarcraft.blizzard.com/fr-fr/start" title="Télécharger World of Warcraft">Télécharger
+              et jouer à WoW</a>
           </p>
         </div>
-      </header>
-
-      <!-- NAVBAR -->
-      <nav class="nav-menuHead">
-        <div class="menuHead" id="WowGeek">
-          <a title="WowGeeK" class="link-logo" href="./">WoWGeeK</a>
-          <a title="Acceuil WowGeek" href="./">Acceuil</a>
-          <a title="les races de personnages" href="./les-races.html"
-            >les races</a
-          >
-          <a title="les factions jouable" href="./les-factions.html"
-            >les factions</a
-          >
-          <a title="les classes à prendre en main" href="./les-classes.html"
-            >les classes</a
-          >
-          <a title="les extansions à découvrir" href="./les-extansions.html"
-            >les extansions</a
-          >
-          <a title="Contact nous si tu as des suggestions" href="./contact.html"
-            >Contact</a
-          >
-          <a href="javascript:void(0);" class="icon" onclick="showMenuNow()">
-          </a>
-        </div>
-      </nav>
-
-      <!-- SECTION -->
-      <section class="content">
-        <h2>Contact</h2>
-
-        <p>Une question, une suggestion, laisse nous un message.</p>
-
-        <form action="/contact" method="post">
-          <ul class="form-contact">
-            <li class="list-contact">
-              <label for="pseudo">Pseudo :</label>
-              <input type="text" id="pseudo" name="pseudo" />
-            </li>
-            <li class="list-contact">
-              <label for="mail">E-mail :</label>
-              <input type="email" id="mail" name="mail" />
-            </li>
-            <li class="list-contact">
-              <label for="msg">Message :</label>
-              <textarea id="msg" name="message"></textarea>
-            </li>
-            <li class="list-contact">
-              <button class="button-contact" type="submit">
-                Envoyer le message
-              </button>
-            </li>
-          </ul>
-        </form>
-        <aside class="aside-contact">
-          <!-- FIGURE -->
-          <figure class="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/8szOuSfblt8"
-              title="World of Warcraft : Shadowlands Le Film"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-            </iframe>
-            <!-- FIGCAPTION -->
-            <figcaption>World of Warcraft : Shadowlands Le Film</figcaption>
-          </figure>
-
-          <!-- FIGURE -->
-          <figure class="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/7rZ9UtNTy2Y"
-              title="Aperçu des fonctionnalités de The War Within | World of Warcraft"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-            </iframe>
-            <!-- FIGCAPTION -->
-            <figcaption>
-              Aperçu des fonctionnalités de The War Within | World of Warcraft
-            </figcaption>
-          </figure>
-
-          <!-- FIGURE -->
-          <figure class="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/6N3kjHebBKA"
-              title="Bande-annonce cinématique de The War Within | World of Warcraft"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-            </iframe>
-            <!-- FIGCAPTION -->
-            <figcaption>
-              Bande-annonce cinématique de The War Within | World of Warcraft
-            </figcaption>
-          </figure>
-        </aside>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <!-- NAV FOOTER -->
-      <nav class="old-footer">
-        <div class="old-footer-logo">
-          <a title="WowGeeK" class="link-logo" href="./">WoWGeeK</a>
-          <a
-            title="Télécharger La source du projet sur GitHub"
-            href="https://github.com/jean-ely-gendrau/runtrack1-jour-6"
-            >La source du projet sur GitHub</a
-          >
-        </div>
-        <!-- NAV LINK -->
-        <div>
-          <p class="uppercase">WoW GeeK</p>
-          <div class="menu-footer">
-            <a class="menu-items-footer" title="Acceuil" href="./">Acceuil</a>
-            <a
-              class="menu-items-footer"
-              title="conditions générales d'utilisation"
-              href="./"
-              >CGU</a
-            >
-            <a
-              class="menu-items-footer"
-              title="Politique de confidentialité"
-              href="./"
-              >RGPD</a
-            >
-            <a class="menu-items-footer" title="Contact" href="./contact.html"
-              >Contact</a
-            >
-          </div>
-        </div>
-        <!-- NAV LINK -->
-        <div>
-          <p class="uppercase">L'univer de WoW</p>
-          <div class="menu-footer">
-            <a
-              class="menu-items-footer"
-              title="Les Factions"
-              href="./les-factions.html"
-              >les factions</a
-            >
-            <a
-              class="menu-items-footer"
-              title="Les Classes"
-              href="./les-classes.html"
-              >les classes</a
-            >
-            <a
-              class="menu-items-footer"
-              title="Les Extansions"
-              href="./les-extansions.html"
-              >les extansions</a
-            >
-          </div>
-        </div>
-        <!-- GoTo WoW -->
-        <div>
-          <p class="uppercase">Autre Liens WoW</p>
-          <div class="menu-footer">
-            <a
-              href="https://eu.forums.blizzard.com/fr/wow//"
-              title="World of Warcraft Forums"
-              >Forums Blizzard</a
-            >
-            <a
-              href="https://worldofwarcraft.judgehype.com/"
-              title="JudgeHype: Guides et news pour World of Warcraft"
-              >JudgeHype</a
-            >
-            <a href="https://www.wowhead.com/classic/fr" title="WowHead Classic"
-              >WowHead Classic</a
-            >
-            <p class="footer-button">
-              <a
-                href="https://worldofwarcraft.blizzard.com/fr-fr/start"
-                title="Télécharger World of Warcraft"
-                >Télécharger et jouer à WoW</a
-              >
-            </p>
-          </div>
-        </div>
-      </nav>
-      <!-- COPYRIGHT -->
-      <div class="footer-copyright">
-        © WowGeek - 2023 -
-        <a title="Mon autre site internet" href="https://lylylinked.vercel.app/"
-          >lylylinked</a
-        >
       </div>
-    </footer>
-  </body>
-</html>
+    </nav>
+    <!-- COPYRIGHT -->
+    <div class="footer-copyright">
+      © WowGeek - 2023 -
+      <a title="Mon autre site internet" href="https://lylylinked.vercel.app/">lylylinked</a>
+    </div>
+  </footer>
+  <!-- Ajouté Script -->
+  <script src="./assets/js/nav.js"></script>
+</body>
+
+<>
