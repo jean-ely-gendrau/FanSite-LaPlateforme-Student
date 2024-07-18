@@ -1,6 +1,0 @@
-RewriteEngin On 
-RewritCond -f %{REQUEST_FILENAME} !-f 
-RewriteRule ^/?fansite/les-races/?$ /fansite/les-races.html [L]
-RewriteRule ^/?fansite/les-classes/?$ /fansite/les-classes.html [L]
-RewriteRule ^/?fansite/les-extansions/?$ /fansite/les-extansions.html [L]
-RewriteRule ^/?fansite/les-fations/?$ /fansite/les-fations.html [L]
