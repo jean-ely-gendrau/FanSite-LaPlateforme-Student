@@ -719,6 +719,11 @@ article.in-card-extensions .card-img {
     color: #ffffff;
 }
 
+/* Sticky footer : main occupe l'espace, footer se colle en bas */
+main.in-article {
+    flex: 1 0 auto;
+}
+
 /* FOOTER */
 .footer {
     width: 100%;
@@ -726,6 +731,30 @@ article.in-card-extensions .card-img {
     background-color: rgb(49, 49, 49);
     display: flex;
     flex-direction: column;
+    margin-top: auto;
+}
+
+/* Grille responsive : 1 colonne mobile, 3 colonnes à partir de 768px */
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    padding: 1rem;
+    line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: start;
+        padding: 2rem;
+    }
+
+    .footer-grid > .old-footer-logo {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
 }
 
 .old-footer {
